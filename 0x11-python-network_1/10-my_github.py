@@ -7,7 +7,7 @@ from requests import get, exceptions
 
 
 if __name__ == '__main__':
-    token = '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'
+    token = ''
     _, user, psw = sys.argv
     url = f'https://api.github.com/users/{user}'
     header = {
